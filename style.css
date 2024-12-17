@@ -1,0 +1,21 @@
+#container {
+    display: flex;
+    max-width: 800px;
+    max-height: 800px;
+    min-width: 800px;
+    min-height: 800px;
+    flex-wrap: wrap;
+}
+
+.square {
+    flex-shrink: 1;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    /* padding: 10px;
+    margin: 10px; */
+}
+
+#hover {
+    background-color: red;
+}
